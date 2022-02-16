@@ -7,16 +7,15 @@ body{
 }
 .container{
     display: flex;
-    flex-flow:row wrap;
+    flex-flow:row nowrap;
     justify-content: space-between;
     align-items: stretch;
-
     height: 100vh;
 }
 .item{
     display: grid;
-    flex-grow: 1;
     place-items: center;
+    flex-grow: 1;
     margin:3px;
     border:1px dashed rgb(216, 112, 147);
     border-radius: 30px;
